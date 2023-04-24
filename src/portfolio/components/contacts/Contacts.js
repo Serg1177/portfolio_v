@@ -4,7 +4,7 @@ import {useFormik} from "formik";
 import React, {useState} from 'react';
 import './../../commons/button/button.scss'
 import Modal from "../../commons/modal/Modal";
-import photo from './../../assets/footer/foto3.jpg'
+import photo from './../../assets/footer/foto7V.jpeg'
 
 export const Contacts = () => {
   const [isShow, setIsShow] = useState(false)
@@ -59,9 +59,9 @@ export const Contacts = () => {
                 <h2>Contact Me.</h2>
                 <p className="description">
                   {`I am available for work. Connect with me via phone: ` }
-                  <a href="tel:+375292592648">8 029 259-26-48</a>
+                  <a href="tel:+381629383472">+381 62-938-34-72</a>
                   {` or email: `}
-                  <a href="mailto:alexeynikinitin@yandex.by">alexeynikinitin@yandex.by</a>
+                  <a href="mailto:orovstrug2010@yandex.ru">orovstrug2010@yandex.ru</a>
                 </p>
               </div>
               <div className="form_wrapper text-lg-start">

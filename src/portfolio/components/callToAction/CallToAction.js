@@ -11,7 +11,7 @@ export const CallToAction = () => {
             <div className="inner text-center">
               <span>READY TO DO THIS</span>
               <h2>Let's get to work</h2>
-              <Button btnName={"Contact me"} btnClass={"call-to-action-btn"} url={"tel:+375292592648"}/>
+              <Button btnName={"Contact me"} btnClass={"call-to-action-btn"} url={"tel:+381629383472"}/>
             </div>
           </div>
         </div>

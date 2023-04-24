@@ -32,7 +32,7 @@ export const TabPanel = ({tabs}) => {
             <p className="personal_quality_item">Creation Web apps using ReactJs with
               TypeScript and various libraries</p>
             <p className="personal_quality_item">Using Redux and Redux-toolkit to manage application state</p>
-            <p className="personal_quality_item">Cross-browser, adaptive, responsive development with CSS-preprocessors, Material UI and And Design libraries</p>
+            <p className="personal_quality_item">Cross-browser, adaptive, responsive development with CSS-preprocessors</p>
             <p className="personal_quality_item">Implementation of multilingual application using localization management platform</p>
             <p className="personal_quality_item">Сheck the correctness of the code with Unit Tests and take Storybook for demonstration of individual
               modules of the application</p>
@@ -45,13 +45,13 @@ export const TabPanel = ({tabs}) => {
         <ul>
           <li>
             <span>Front-end developer</span>
-            <span> - Learning app “Memorization Cards</span>
-            <p>02/2022 - present</p>
+            <span> - Learning app “Memo Cards</span>
+            <p>04/2022 - present</p>
           </li>
           <li>
             <span>Front-end  developer</span>
-            <span> - Social project “Ta Na”</span>
-            <p>08/2021 - 02/2022</p>
+            <span> - Social project “Big V”</span>
+            <p>08/2022 - 02/2023</p>
           </li>
         </ul>
       </div>
@@ -60,7 +60,7 @@ export const TabPanel = ({tabs}) => {
         <ul>
           <li>
             <span>Front-end developer</span>
-            <span> - IT-Incubator</span>
+            <span> - D-study</span>
             <p>2021 - 2022</p>
           </li>
           <li>
@@ -68,15 +68,11 @@ export const TabPanel = ({tabs}) => {
             <span> - Brainscloud</span>
             <p>2021</p>
           </li>
-          <li>
-            <span>Back-end developer</span>
-            <span> - JavaRush</span>
-            <p>2019 - 2020</p>
-          </li>
+          
           <li>
             <span>Operation of the air transport</span>
-            <span> - Military Academy, Belarus, Minsk</span>
-            <p>2012 - 2017</p>
+            <span> - Military Academy, Irkutsk</span>
+            <p>2000 - 2005</p>
           </li>
         </ul>
       </div>

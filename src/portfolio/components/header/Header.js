@@ -10,16 +10,16 @@ import instagram from "../../assets/socialIcon/bx_bxl-instagram.png";
 import facebook from "../../assets/socialIcon/bx_bxl-facebook.png";
 import github from "../../assets/socialIcon/github.png";
 
-import logo from './../../assets/header-footer/logo-red.png'
+import logo from './../../assets/header-footer/logo_3v.png'
 import menuitem from './../../assets/header-footer/menu-hamburger.png'
 import closeMenuItem from './../../assets/header-footer/close-menu-icon.png'
 
 export const Header = () => {
   const initialSocialIcons = [
     {urlIcon: facebook, urlSocial: "#"},
-    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/in/alexeinikitin/"},
-    {urlIcon: instagram, urlSocial: "https://instagram.com/alexalex_2576?utm_medium=copy_link"},
-    {urlIcon: github, urlSocial: "https://github.com/alexeynikinitin"},
+    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%B2%D0%BB%D0%B0%D1%81%D0%BE%D0%B2-a5920b257/"},
+    {urlIcon: instagram, urlSocial: "#"},
+    {urlIcon: github, urlSocial: "https://serg1177.github.io"},
   ]
   const [isScrolled, setIsScrolled] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
@@ -32,7 +32,7 @@ export const Header = () => {
 
   const fullClassHeader = `header ${isScrolled ? "sticky_header" : ""}`
   const fullClassHeaderWrapper = `header_wrapper  d-flex justify-content-between align-items-center ${isScrolled ? "sticky_wrapper" : ""}`
-  const fullClassMenuNav = `main_menu ${isVisible ? "main_menu_open" : "main_menu_close"}`
+  const fullClassMenuNav = `main_menu ${isVisible ? " main_menu_open" : " main_menu_close"}`
   const fullClassCloseMenuItem = `close_menu d-block d-lg-none ${isVisible ? "close_menu_open" : "close_menu_close"}`
   const fullClassBurgerMenu = `hamburger_menu d-block d-lg-none ${isVisible ? "hamburger_menu_close" : "hamburger_menu_open"}`
   return (
@@ -58,7 +58,7 @@ export const Header = () => {
               initialSocialIcons.map(s => <SocialIcon urlIcon={s.urlIcon} urlSocial={s.urlSocial}/> )
             }
           </ul>
-          <Button btnName={"Call me"} btnClass={"header_btn"} url={"tel:+375292592648"}/>
+          <Button btnName={"Call me"} btnClass={"header_btn"} url={"tel:+381629383472"}/>
           <div className={fullClassBurgerMenu}>
             <div className="menutrigger" onClick={() => {setIsVisible(true)}}>
               <img src={menuitem} alt="menu"/>

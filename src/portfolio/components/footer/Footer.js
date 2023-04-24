@@ -7,15 +7,15 @@ import linkedIn from './../../assets/socialIcon/bx_bxl-linkedin.png'
 import instagram from './../../assets/socialIcon/bx_bxl-instagram.png'
 import github from "../../assets/socialIcon/github.png";
 
-import logo from './../../assets/header-footer/logo-red.png'
+import logo from './../../assets/header-footer/logo_3v.png'
 
 export const Footer = () => {
 
   const initialSocialIcons = [
     {urlIcon: facebook, urlSocial: "#"},
-    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/in/alexeinikitin/"},
-    {urlIcon: instagram, urlSocial: "https://instagram.com/alexalex_2576?utm_medium=copy_link"},
-    {urlIcon: github, urlSocial: "https://github.com/alexeynikinitin"},
+    {urlIcon: linkedIn, urlSocial: "https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%B2%D0%BB%D0%B0%D1%81%D0%BE%D0%B2-a5920b257/"},
+    {urlIcon: instagram, urlSocial: "#"},
+    {urlIcon: github, urlSocial: "https://serg1177.github.io"},
   ]
 
   return (
@@ -39,7 +39,7 @@ export const Footer = () => {
           <div className="col-lg-4 col-md-4 col-sm-6 col-12">
             <div className="text">
               <p>
-                Alexey Nikitin
+                Sergey Vlasov
               </p>
             </div>
           </div>
